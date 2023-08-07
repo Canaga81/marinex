@@ -7,13 +7,17 @@
     font-family: sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 /*! Header */
 
 header {
-    height: 50px;
+    height: 5rem;
     background: #FFF;
     box-shadow: 0px 1px 7px 0px rgba(168, 168, 168, 0.25);
-    padding: 0 80px;
+    padding: 0 8rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,23 +25,23 @@ header {
 
 header .header-item {
     display: flex;
-    gap: 43px;
+    gap: 4.3rem;
 }
 
 header .header-item .navbar-1 {
     display: flex;
-    gap: 5px;
+    gap: 0.5rem;
 }
 
 header .header-item .navbar-1 i {
     color: #FFAB21;
-    font-size: 13px;
+    font-size: 1.3rem;
 }
 
 header .header-item .navbar-1 .location-text {
     color: #005B7F;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -45,23 +49,23 @@ header .header-item .navbar-1 .location-text {
 
 header .header-item .navbar-2 {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 }
 
 header .header-item .navbar-2 .navbar-item {
     display: flex;
-    gap: 5px;
+    gap: 0.5rem;
 }
 
 header .header-item .navbar-2 .navbar-item i {
-    font-size: 13px;
+    font-size: 1.3rem;
     color: #FFAB21;
 }
 
 header .header-item .navbar-2 .navbar-item .phone-num {
     color: #005B7F;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -70,29 +74,29 @@ header .header-item .navbar-2 .navbar-item .phone-num {
 header .header-item-2 {
     display: flex;
     align-items: center;
-    gap: 39px;
+    gap: 3.9rem;
 }
 
 header .header-item-2 .navbar-icons {
     display: flex;
-    gap: 30px;
+    gap: 3rem;
 }
 
 header .header-item-2 .navbar-icons i {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #FFAB21;
     cursor: pointer;
 }
 
 header .header-item-2 .navbar-content {
     display: flex;
-    gap: 18px;
+    gap: 1.8rem;
 }
 
 header .header-item-2 .navbar-content .blue-text {
     color: #005B7F;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -101,7 +105,7 @@ header .header-item-2 .navbar-content .blue-text {
 header .header-item-2 .navbar-content .yellow-text {
     color: #FFAB21;
     font-family: Poppins;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -111,37 +115,37 @@ header .header-item-2 .navbar-content .yellow-text {
 
 .price {
     background: #F4F5F7;
-    padding: 0 80px;
-    padding-top: 30px;
+    padding: 0 8rem;
+    padding-top: 3rem;
     width: 100%;
-    height: 700px;
+    height: 70rem;
 }
 
 .price .price-container {
     display: flex;
     justify-content: space-between;
-    height: 79px;
+    height: 7.9rem;
     width: 100%;
     flex-direction: column;
-    gap: 101.62px;
+    gap: 10.162rem;
 }
 
 .price .price-container .price-top-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 139px;
+    gap: 13.9rem;
 }
 
 .price .price-container .price-top-container .price-navbar {
     display: flex;
-    gap: 42px;
+    gap: 4.2rem;
 }
 
 .price .price-container .price-top-container .price-navbar a {
     color: #58595B;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -153,15 +157,15 @@ header .header-item-2 .navbar-content .yellow-text {
 }
 
 .price .price-container .price-top-container .price-button .price-btn {
-    width: 224px;
-    height: 40px;
-    border-radius: 10px;
+    width: 22.4rem;
+    height: 4rem;
+    border-radius: 1rem;
     background: #FFAB21;
     box-shadow: 0px 2px 7px 0px #BDC2FF;
     border: none;
     color: #FFF;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -187,27 +191,27 @@ header .header-item-2 .navbar-content .yellow-text {
 .price .price-container .price-center-container .price-left .price-left-texts {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 1.2rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-texts h2 {
     color: #005B7F;
     font-family: Montserrat;
-    font-size: 35px;
+    font-size: 3.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .price .price-container .price-center-container .price-left .price-left-texts .price-paragraph {
-    width: 412px;
-    margin-bottom: 54px;
+    width: 41.2rem;
+    margin-bottom: 5.4rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-texts .price-paragraph p {
     color: #58595B;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -215,45 +219,45 @@ header .header-item-2 .navbar-content .yellow-text {
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container {
     display: flex;
-    gap: 141px;
+    gap: 14.1rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items {
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 3.5rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom {
     display: flex;
     flex-direction: column;
-    gap: 47px;
+    gap: 4.7rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-1 {
     display: flex;
-    gap: 34px;
+    gap: 3.4rem;
     align-items: center;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-1 .num-text {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     align-items: center;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-1 .num-text input {
-    width: 68px;
-    height: 30px;
-    border-radius: 5px;
-    border: 0.5px solid #FFAB21;
+    width: 6.8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 0.05rem solid #FFAB21;
     background: #FFF;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-1 .num-text div {
     color: #58595B;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -262,25 +266,25 @@ header .header-item-2 .navbar-content .yellow-text {
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-2 {
     display: flex;
     flex-direction: column;
-    gap: 23px;
+    gap: 2.3rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-2 input {
-    width: 169px;
-    height: 5px;
+    width: 16.9rem;
+    height: 0.5rem;
     color: #FFAB21;
     border: none;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-2 .range-nums {
     display: flex;
-    gap: 141px;
+    gap: 14.1rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-bottom .price-left-bottom-line-2 .range-nums div {
     color: #8A8A8A;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -289,19 +293,19 @@ header .header-item-2 .navbar-content .yellow-text {
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items.active {
     display: flex;
     flex-direction: column;
-    gap: 77px;
+    gap: 7.7rem;
 }
 
 .price .price-container .price-center-container .price-left .price-left-bottom-container .price-left-bottom-items .price-left-button .price-left-btn {
-    width: 305px;
-    height: 40px;
-    border-radius: 10px;
+    width: 30.5rem;
+    height: 4rem;
+    border-radius: 1rem;
     background: #FFAB21;
     box-shadow: 0px 2px 7px 0px #BDC2FF;
     border: none;
     color: #FFF;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -316,7 +320,7 @@ header .header-item-2 .navbar-content .yellow-text {
 /*! Carry */
 
 .carry {
-    padding: 127.93px 80px 140px 80px;
+    padding: 12.793rem 8rem 14rem 8rem;
     background-color: #F4F5F7;
 }
 
@@ -324,23 +328,23 @@ header .header-item-2 .navbar-content .yellow-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 5rem;
 }
 
 .carry .carry-container .carry-top-container h2 {
     color: #005B7F;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .carry .carry-container .carry-center-container .carry-content {
-    padding: 88px 72px 80px 81px;
-    width: 1280px;
-    height: 534px;
-    border-radius: 10px;
+    padding: 8.8rem 7.2rem 8rem 8.1rem;
+    width: 128rem;
+    height: 53.4rem;
+    border-radius: 1rem;
     background: #FFF;
     box-shadow: 0px 1px 7px 0px rgba(168, 168, 168, 0.6);
     display: flex;
@@ -350,38 +354,38 @@ header .header-item-2 .navbar-content .yellow-text {
 .carry .carry-container .carry-center-container .carry-content .carry-content-item {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3rem;
 }
 
 .carry .carry-container .carry-center-container .carry-content .carry-content-item .carry-content-items {
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    gap: 1.9rem;
 }
 
 .carry .carry-container .carry-center-container .carry-content .carry-content-item .carry-content-items small {
     color: #8A8A8A;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     border-bottom: 1px solid #FFE8BA;
-    width: 380px;
-    padding-bottom: 6px;
+    width: 38rem;
+    padding-bottom: 0.6rem;
 }
 
 .carry .carry-container .carry-center-container .carry-content .carry-content-item h3 {
     color: #005B7F;
     font-family: Montserrat;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .work {
-    padding: 140px 80px 120px 80px;
+    padding: 14rem 8rem 12rem 8rem;
     background-color: #F4F5F7;
 }
 
@@ -389,13 +393,13 @@ header .header-item-2 .navbar-content .yellow-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 5rem;
 }
 
 .work .work-top-container h2 {
     color: #005B7F;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -403,42 +407,43 @@ header .header-item-2 .navbar-content .yellow-text {
 
 .work .work-center-container {
     display: flex;
-    gap: 238px;
+    gap: 23.8rem;
+    flex-wrap: wrap;
 }
 
 .work .work-center-container .work-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50.05px;
+    gap: 5.005rem;
 }
 
 .work .work-center-container .work-card .work-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 22px;
+    gap: 2.2rem;
 }
 
 .work .work-center-container .work-card .work-content p {
     color: #58595B;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .work .work-center-container .work-card .work-content .work-line {
-    width: 86px;
-    height: 1px;
+    width: 8.6rem;
+    height: 0.1rem;
     background: #FFAB21;
 }
 
 /*! New */
 
 .new {
-    padding: 120px 80px 195px 80px;
+    padding: 12rem 8rem 19.5rem 8rem;
     background-color: #F4F5F7;
 }
 
@@ -446,13 +451,13 @@ header .header-item-2 .navbar-content .yellow-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 8rem;
 }
 
 .new .new-container .new-top-container h2 {
     color: #005B7F;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -460,13 +465,14 @@ header .header-item-2 .navbar-content .yellow-text {
 
 .new .new-container .new-center-container {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .new .new-container .new-center-container .new-content {
-    width: 305px;
-    height: 428px;
-    border-radius: 10px;
+    width: 30.5rem;
+    height: 42.8rem;
+    border-radius: 1rem;
     background: #FFF;
     box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.50);
     cursor: pointer;
@@ -478,32 +484,32 @@ header .header-item-2 .navbar-content .yellow-text {
 }
 
 .new .new-container .new-center-container .new-content .new-card {
-    padding: 30px 20px;
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 3rem;
 }
 
 .new .new-container .new-center-container .new-content .new-card .new-card-text {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1.6rem;
 }
 
 .new .new-container .new-center-container .new-content .new-card .new-card-text h4 {
     color: #005B7F;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .new .new-container .new-center-container .new-content .new-card .new-card-text {
-    width: 265px;
+    width: 26.5rem;
     color: #58595B;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -523,14 +529,15 @@ header .header-item-2 .navbar-content .yellow-text {
 .new .new-container .new-center-container .new-content .new-card .new-card-bottom .new-card-bottom-text small {
     color: #005B7F;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
 .new .new-container .new-center-container .new-content .new-card .new-card-bottom i {
-    padding: 7.5px;
+    padding: 1.2rem;
+    font-size: 1.4rem;
     background-color: #FFAB21;
     border-radius: 50%;
     color: #fff;
@@ -539,4 +546,143 @@ header .header-item-2 .navbar-content .yellow-text {
 
 .new .new-container .new-center-container .new-content .new-card .new-card-bottom i:hover {
     background-color: #bd8f46;
+}
+
+/*! Company */
+
+.company {
+    background-color: #F4F5F7;
+}
+
+.company .company-container {
+    margin: 0 11.7rem;
+    padding-bottom: 10rem;
+    position: relative;
+}
+
+.company .company-container .company-content {
+    width: 128rem;
+    height: 26rem;
+    border-radius: 1rem;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 7.2rem;
+}
+
+/*! Footer */
+
+footer {
+    padding: 8rem 8rem 3rem 8rem;
+}
+
+footer .footer-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-container .footer-container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container {
+    display: flex;
+    gap: 12rem;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items a {
+    color: #005B7F;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.126s ease-in;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items a:hover {
+    color: #000;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-adress .location-text {
+    color: #005B7F;
+    font-family: Prompt;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-number .phone-num {
+    color: #005B7F;
+    font-family: Prompt;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-email .email {
+    color: #005B7F;
+    font-family: Prompt;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+footer .footer-container .footer-container-1 .footer-icons i {
+    font-size: 2.1rem;
+    color: #FFAB21;
+    cursor: pointer;
+}
+
+footer .footer-container .footer-container-2 {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .footer-container-2 .footer-content-items {
+    display: flex;
+    gap: 3rem;
+}
+
+footer .footer-container .footer-container-2 .footer-content-items small {
+    color: #8A8A8A;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-2 .footer-content-items p {
+    color: #005B7F;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
