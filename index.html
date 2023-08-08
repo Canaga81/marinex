@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="main.css/style.css">
     <title>Marinex</title>
 </head>
+
 <body>
 
     <!--! Header Start -->
 
     <header>
+
         <nav class="header-item">
+
             <div class="navbar-1">
+
                 <i class="fa-solid fa-location-dot fa-fade"></i>
                 <a href="#" class="location-text">Bakı şəh. Nərimanov r. Nazim Hacıyev küçəsi</a>
+
             </div>
 
             <div class="navbar-2">
+
                 <div class="navbar-item">
                     <i class="fa-solid fa-phone fa-shake"></i>
                     <a href="#" class="phone-num">+994 51 440 01 40</a>
@@ -27,7 +35,9 @@
                 <div class="navbar-item">
                     <a href="#" class="phone-num">+994 12 514 07 06</a>
                 </div>
+
             </div>
+
         </nav>
 
         <nav class="header-item-2">
@@ -60,14 +70,15 @@
                 </div>
 
                 <div class="price-navbar">
-                    <a href="#">Haqqımızda</a>
-                    <a href="#">Tariflər</a>
-                    <a href="#">Mağazalar</a>
-                    <a href="#">Xəbərlər</a>
-                    <a href="#">Xidmətlər</a>
-                    <a href="#">Məntəqələr</a>
-                    <a href="#">Daşınma şərtləri</a>
-                    <a href="#">Əlaqə</a>
+                    <a href="haqqimizda.html">Haqqımızda</a>
+                    <a href="tarifler.html">Tariflər</a>
+                    <a href="menteqe.html">Məntəqə tarifləri</a>
+                    <a href="magazalar.html">Mağazalar</a>
+                    <a href="xeberler.html">Xəbərlər</a>
+                    <a href="xidmetler.html">Xidmətlər</a>
+                    <a href="menteqeler.html">Məntəqələr</a>
+                    <a href="dasima.html">Daşınma şərtləri</a>
+                    <a href="elaqe.html">Əlaqə</a>
                 </div>
 
                 <div class="price-button">
@@ -97,17 +108,17 @@
                                         <div>sm</div>
                                     </div>
                                 </div>
-        
+
                                 <div class="price-left-bottom-line-2">
                                     <input type="range">
-        
+
                                     <div class="range-nums">
                                         <div>0</div>
                                         <div>100</div>
                                     </div>
                                 </div>
                             </div>
-        
+
                             <div class="price-left-bottom">
                                 <div class="price-left-bottom-line-1">
                                     <p>Çəki:</p>
@@ -116,21 +127,21 @@
                                         <div>kg</div>
                                     </div>
                                 </div>
-        
+
                                 <div class="price-left-bottom-line-2">
                                     <input type="range">
-        
+
                                     <div class="range-nums">
                                         <div>0</div>
                                         <div>100</div>
                                     </div>
                                 </div>
                             </div>
-    
+
                         </div>
-    
+
                         <div class="price-left-bottom-items active">
-    
+
                             <div class="price-left-bottom">
                                 <div class="price-left-bottom-line-1">
                                     <p>Hündürlük:</p>
@@ -139,21 +150,21 @@
                                         <div>sm</div>
                                     </div>
                                 </div>
-        
+
                                 <div class="price-left-bottom-line-2">
                                     <input type="range">
-        
+
                                     <div class="range-nums">
                                         <div>0</div>
                                         <div>100</div>
                                     </div>
                                 </div>
                             </div>
-        
+
                             <div class="price-left-button">
                                 <button class="price-left-btn">3.50 USD - 5.95 AZN</button>
                             </div>
-    
+
                         </div>
 
                     </div>
@@ -402,41 +413,70 @@
     </section>
 
     <!--! New End -->
-    
+
     <!--! Company Start -->
 
     <section class="company">
 
         <div class="company-container">
-            
+
             <div class="company-content">
 
-                <div class="company-content-image" id="slide">
-                    <img src="images/image 11.png" alt="company-image">
-                </div>
+                
 
-                <div class="company-content-image" id="slide">
-                    <img src="images/image 12.png" alt="company-image">
-                </div>
-
-                <div class="company-content-image" id="slide">
-                    <img src="images/image 21.png" alt="company-image">
-                </div>
-
-                <div class="company-content-image" id="slide">
-                    <img src="images/image 15.png" alt="company-image">
-                </div>
-
-                <div class="company-content-image" id="slide">
-                    <img src="images/image 16.png" alt="company-image">
-                </div>
-
-                <div class="company-content-image" id="slide">
-                    <img src="images/image 24.png" alt="company-image">
-                </div>
-
-                <div class="company-content-image" id="slide">
-                    <img src="images/image 19.png" alt="company-image">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="company-content-image" id="slide">
+                                <img src="images/image 11.png" alt="company-image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="company-content-image" id="slide">
+                                <img src="images/image 12.png" alt="company-image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="company-content-image" id="slide">
+                                <img src="images/image 21.png" alt="company-image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="company-content-image" id="slide">
+                                <img src="images/image 15.png" alt="company-image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="company-content-image" id="slide">
+                                <img src="images/image 16.png" alt="company-image">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="company-content-image" id="slide">
+                                <img src="images/image 24.png" alt="company-image">
+                            </div>
+            
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="company-content-image" id="slide">
+                                <img src="images/image 19.png" alt="company-image">
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-slide">Slide 8</div> -->
+                        <!-- <div class="swiper-slide">Slide 9</div> -->
+                       
+        
+                      
+        
+                       
+        
+                        
+        
+                       
+        
+                        
+                        
+                    </div>
                 </div>
 
             </div>
@@ -466,7 +506,7 @@
                         <a href="#">Mağazalar</a>
                         <a href="#">Xəbərlər</a>
                     </div>
-    
+
                     <div class="footer-items">
                         <a href="#">Xidmətlər</a>
                         <a href="#">Məntəqələr</a>
@@ -480,7 +520,7 @@
                     <div class="footer-adress">
                         <a href="#" class="location-text">Bakı şəh. Nərimanov r. Nazim Hacıyev küçəsi</a>
                     </div>
-    
+
                     <div class="footer-number">
                         <a href="#" class="phone-num">+994 51 440 01 40</a>
                         <a href="#" class="phone-num">+994 12 514 07 06</a>
@@ -515,7 +555,10 @@
 
     <!--! Footer End -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
     <script src="app.js"></script>
 
 </body>
+
 </html>

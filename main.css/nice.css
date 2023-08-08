@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*! Header */
+
+header .header-container-1 {
+    padding: 0 8rem;
+    width: 100%;
+    height: 5rem;
+    background: #254083;
+    box-shadow: 0px 1px 7px 0px rgba(168, 168, 168, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-container-1 .header-numbers-icons {
+    display: flex;
+    gap: 1.8rem;
+}
+
+header .header-container-1 .header-numbers-icons .header-number-icon {
+    display: flex;
+    gap: 0.7rem;
+}
+
+header .header-container-1 .header-numbers-icons .header-number-icon i {
+    font-size: 1.6rem;
+    color: #FFAB21;
+}
+
+header .header-container-1 .header-numbers-icons .header-number-icon a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .header-container-1 .currency {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .header-container-1 .currency span {
+    font-weight: 600;
+}
+
+header .header-container-1 .header-icons-content {
+    display: flex;
+    gap: 3rem;
+}
+
+header .header-container-1 .header-icons-content .header-icons {
+    display: flex;
+    gap: 3rem;
+}
+
+header .header-container-1 .header-icons-content .header-icons i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+header .header-container-1 .header-icons-content .header-content {
+    display: flex;
+    gap: 2rem;
+}
+
+header .header-container-1 .header-icons-content .header-content .white-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header .header-container-1 .header-icons-content .header-content .yellow-text {
+    color: #FFAB21;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+header .header-container-2 {
+    padding: 0 8rem;
+    background-color: #FAFAFA;
+    box-shadow: 2px 2px 4px 2px rgba(168, 168, 168, 0.15);
+}
+
+header .header-container-2 .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12.8rem;
+}
+
+header .header-container-2 .header-content .header-navbar {
+    display: flex;
+    gap: 3.6rem;
+}
+
+header .header-container-2 .header-content .header-navbar a {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.126s ease-in-out;
+}
+
+header .header-container-2 .header-content .header-navbar a:hover {
+    opacity: 0.5;
+}
+
+header .header-container-2 .header-content .header-button .header-btn {
+    width: 22.4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background: #FFAB21;
+    box-shadow: 0px 2px 7px 0px #BDC2FF;
+    border: none;
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.126s ease-in-out;
+}
+
+header .header-container-2 .header-content .header-button .header-btn:hover {
+    background-color: #bd8f46;
+}
+
+/*! Calculator */
+
+.calculator {
+    padding: 0 8rem;
+    padding-top: 3rem;
+}
+
+.calculator .calculator-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8.2rem;
+}
+
+.calculator .calculator-container .calculator-top-container p {
+    color: #254083;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-top-container p a {
+    color: #B3B3B3;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-center-container {
+    display: flex;
+    gap: 8.1rem;
+    align-items: center;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-content-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-content-texts h2 {
+    color: #254083;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-content-texts .calculator-paragraph {
+    width: 412px;
+}
+
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-content-texts .calculator-paragraph p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs {
+    display: flex;
+    gap: 2rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-left select {
+    width: 30.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 0.05rem solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding-left: 2.7rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-left select option {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-left input {
+    width: 30.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 0.05rem solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding-left: 3rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-left input::placeholder {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-right select {
+    width: 30.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 0.05rem solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding-left: 2.7rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-right select option {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-right input {
+    width: 30.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 0.05rem solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding-left: 3rem;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-right input::placeholder {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-btn {
+    width: 63rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background: #254083;
+    box-shadow: 0px 2px 7px 0px #BDC2FF;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.126s ease-in-out;
+}
+
+.calculator .calculator-container .calculator-center-container .calculator-content .calculator-btn:hover {
+    background: #1b51d8;
+}
+
+/*! Recipes */
+
+.recipes {
+    padding: 0 8rem;
+    padding-bottom: 12rem;
+    padding-top: 5rem;
+}
+
+.recipes .recipes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.recipes .recipes-container .recipes-top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipes .recipes-container .recipes-top-container h2 {
+    color: #254083;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.recipes .recipes-container .recipes-top-container select {
+    width: 30.5rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 0.05rem solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding-left: 2.7rem;
+}
+
+.recipes .recipes-container .recipes-top-container select option {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recipes .recipes-container .recipes-center-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.recipes .recipes-container .recipes-center-container .recipes-content-1 {
+    display: flex;
+    gap: 21rem;
+}
+
+.recipes .recipes-container .recipes-center-container .recipes-content-1 .empty {
+    width: 15rem;
+}
+
+.recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container {
+    display: flex;
+    gap: 8rem;
+}
+
+.recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.recipes .recipes-container .recipes-center-container .recipes-content-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 135rem;
+    height: 6.4rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.7);
+    padding: 0 4rem;
+}
+
+.recipes .recipes-container .recipes-center-container .recipes-content-2 .full {
+    color: #254083;
+    font-family: Montserrat;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.recipes .recipes-container .recipes-center-container .recipes-content-2 .measure-container {
+    display: flex;
+    gap: 13rem;
+}
+
+/*! Footer */
+
+footer {
+    width: 100%;
+}
+
+footer .footer-container {
+    background: #254083;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-container .footer-container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+    padding: 8rem 8rem 3rem 8rem;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container {
+    display: flex;
+    gap: 8.6rem;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items .footer-items-begin p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items .footer-item a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.126s ease-out;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items .footer-item a:hover {
+    color: #7d7878;
+}
+
+footer .footer-container .footer-container-1 .footer-items-container .footer-items .footer-items-begins p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    opacity: 0;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-adress-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-adress-item .footer-adress a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-adress-item .footer-number {
+    display: flex;
+    gap: 5.8rem;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-adress-item .footer-number a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-adress-numbers .footer-adress-item .footer-email a {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-icons p {
+    width: 23.5rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-icons .footer-icon {
+    display: flex;
+    gap: 3rem;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-icons .footer-icon i {
+    font-size: 1.9rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-read {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-read small {
+    color: #F5F5F5;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-programs {
+    display: flex;
+    gap: 1.8rem;
+}
+
+footer .footer-container .footer-container-1 .footer-icons-read .footer-programs {
+    cursor: pointer;
+}
+
+footer .footer-container .footer-line {
+    height: 0.1rem;
+    width: 100%;
+    background: #506FBD;
+}
+
+footer .footer-container .footer-container-2 {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 8rem 3rem 8rem;
+}
+
+footer .footer-container .footer-container-2 .footer-content-items {
+    display: flex;
+    gap: 3rem;
+}
+
+footer .footer-container .footer-container-2 .footer-content-items small {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer .footer-container .footer-container-2 .footer-content-items p {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
