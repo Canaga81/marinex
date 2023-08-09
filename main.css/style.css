@@ -15,7 +15,7 @@ html {
 
 
 header {
-    height: 5rem;
+    min-height: 5rem;
     background: #FFF;
     box-shadow: 0px 1px 7px 0px rgba(168, 168, 168, 0.25);
     padding: 0 8rem;
@@ -27,6 +27,7 @@ header {
 header .header-item {
     display: flex;
     gap: 4.3rem;
+    flex-wrap: wrap;
 }
 
 header .header-item .navbar-1 {
@@ -586,12 +587,14 @@ footer .footer-container {
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
 }
 
 footer .footer-container .footer-container-1 {
     display: flex;
     justify-content: space-between;
     padding-bottom: 8rem;
+    flex-wrap: wrap;
 }
 
 footer .footer-container .footer-container-1 .footer-items-container {

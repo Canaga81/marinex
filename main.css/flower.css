@@ -154,23 +154,21 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     background-color: #bd8f46;
 }
 
-/*! About */
+/*! Customs */
 
-.about {
+.customs {
     padding: 0 8rem;
+    padding-top: 2rem;
+    padding-bottom: 12rem;
 }
 
-.about .about-container {
+.customs .customs-container {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6.2rem;
 }
 
-.about .about-container .about-top-container {
-    padding-top: 2rem;
-}
-
-.about .about-container .about-top-container p {
+.customs .customs-container .customs-top-container p {
     color: #254083;
     font-family: Poppins;
     font-size: 1.2rem;
@@ -179,80 +177,60 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: normal;
 }
 
-.about .about-container .about-top-container p a {
+.customs .customs-container .customs-top-container p a {
     color: #B3B3B3;
 }
 
-.about .about-container .about-center-container {
+.customs .customs-container .customs-center-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.7rem;
+}
+
+.customs .customs-container .customs-center-container .customs-left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 9rem;
+    gap: 3rem;
 }
 
-.about .about-container .about-center-container .about-center-image img {
-    width: 100%;
-}
-
-.about .about-container .about-center-container .about-center-read {
+.customs .customs-container .customs-center-container .customs-left .customs-left-h2-p {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1.8rem;
+    gap: 1.6rem;
 }
 
-.about .about-container .about-center-container .about-center-read h3 {
+.customs .customs-container .customs-center-container .customs-left .customs-left-h2-p h2 {
     color: #254083;
-    text-align: center;
     font-family: Montserrat;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 2.4rem;
+    line-height: normal;
 }
 
-.about .about-container .about-center-container .about-center-read .about-paragraph {
-    width: 82.8rem;
-    text-align: center;
-}
-
-.about .about-container .about-center-container .about-center-read .about-paragraph p {
-    color: #404040;
-    text-align: center;
+.customs .customs-container .customs-center-container .customs-left .customs-left-h2-p p {
+    color: #FFAB21;
     font-family: Poppins;
     font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.customs .customs-container .customs-center-container .customs-left .customs-text {
+    width: 75.4rem;
+    height: 30.5rem;
+}
+
+.customs .customs-container .customs-center-container .customs-left .customs-text p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2.4rem;
 }
 
-/*! Company */
-
-.company {
-    background-color: #fff;
-}
-
-.company .company-container {
-    margin: 0 8rem;
-    padding-bottom: 10rem;
-    position: relative;
-}
-
-.company .company-container .company-content {
-    max-width: 128rem;
-    min-width: 36rem;
-    height: 26rem;
-    border-radius: 1rem;
-    background: #FFF;
-    display: flex;
-    align-items: center;
-    gap: 7.2rem;
-}
-
-.company .company-container .company-content .company-content-image img {
-    max-width: 11.8rem;
-    height: 4.8rem;
-}
 
 /*! Footer */
 

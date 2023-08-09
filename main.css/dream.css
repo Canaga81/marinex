@@ -154,23 +154,21 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     background-color: #bd8f46;
 }
 
-/*! About */
+/*! Condition */
 
-.about {
+.condition {
     padding: 0 8rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
 }
 
-.about .about-container {
+.condition .condition-container {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 4.2rem;
 }
 
-.about .about-container .about-top-container {
-    padding-top: 2rem;
-}
-
-.about .about-container .about-top-container p {
+.condition .condition-container .condition-top-container p {
     color: #254083;
     font-family: Poppins;
     font-size: 1.2rem;
@@ -179,79 +177,183 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: normal;
 }
 
-.about .about-container .about-top-container p a {
+.condition .condition-container .condition-top-container p a {
     color: #B3B3B3;
 }
 
-.about .about-container .about-center-container {
+.condition .condition-container .condition-center-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 9rem;
+    gap: 8rem;
 }
 
-.about .about-container .about-center-container .about-center-image img {
-    width: 100%;
-}
-
-.about .about-container .about-center-container .about-center-read {
+.condition .condition-container .condition-center-container .condition-center-head {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.8rem;
+    gap: 3rem;
 }
 
-.about .about-container .about-center-container .about-center-read h3 {
+.condition .condition-container .condition-center-container .condition-center-head h2 {
     color: #254083;
-    text-align: center;
     font-family: Montserrat;
     font-size: 3.5rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 2.4rem;
+    line-height: 5rem;
 }
 
-.about .about-container .about-center-container .about-center-read .about-paragraph {
-    width: 82.8rem;
-    text-align: center;
+.condition .condition-container .condition-center-container .condition-center-head .condition-buttons {
+    display: flex;
+    gap: 2rem;
 }
 
-.about .about-container .about-center-container .about-center-read .about-paragraph p {
-    color: #404040;
-    text-align: center;
-    font-family: Poppins;
+.condition .condition-container .condition-center-container .condition-center-head .condition-buttons .condition-btn-1 {
+    width: 32.8rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 0.5px solid #005B7F;
+    background: #FFF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.condition .condition-container .condition-center-container .condition-center-head .condition-buttons .condition-btn-1:hover {
+    border-radius: 10px;
+    background: #254083;
+    box-shadow: 0px 1px 7px 0px #BDC2FF;
+    color: #FFF;
+    font-family: Montserrat;
     font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.condition .condition-container .condition-center-container .condition-center-head .condition-buttons .condition-btn-2 {
+    width: 22.3rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 0.5px solid #005B7F;
+    background: #FFF;
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.condition .condition-container .condition-center-container .condition-center-head .condition-buttons .condition-btn-2:hover {
+    border-radius: 10px;
+    background: #254083;
+    box-shadow: 0px 1px 7px 0px #BDC2FF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-1.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-1.active  h4 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-1.active  .condition-paragraph {
+    width: 103.7rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-1.active  .condition-paragraph p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: 2.4rem;
 }
 
-/*! Company */
 
-.company {
-    background-color: #fff;
-}
-
-.company .company-container {
-    margin: 0 8rem;
-    padding-bottom: 10rem;
-    position: relative;
-}
-
-.company .company-container .company-content {
-    max-width: 128rem;
-    min-width: 36rem;
-    height: 26rem;
-    border-radius: 1rem;
-    background: #FFF;
+.condition .condition-container .condition-center-container .condition-center-body-2.color  {
     display: flex;
-    align-items: center;
-    gap: 7.2rem;
+    flex-direction: column;
+    gap: 1.6rem;
 }
 
-.company .company-container .company-content .company-content-image img {
-    max-width: 11.8rem;
-    height: 4.8rem;
+.condition .condition-container .condition-center-container .condition-center-body-2.color  h4 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-2.color  .condition-paragraph {
+    width: 103.7rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-2.color  .condition-paragraph p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-3.background  {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-3.background  h4 {
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-3.background  .condition-paragraph {
+    width: 103.7rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-3.background  .condition-paragraph p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-1 {
+    display: none;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-2 {
+    display: none;
+}
+
+.condition .condition-container .condition-center-container .condition-center-body-3 {
+    display: none;
 }
 
 /*! Footer */

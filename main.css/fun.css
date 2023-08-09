@@ -16,12 +16,13 @@ html {
 header .header-container-1 {
     padding: 0 8rem;
     width: 100%;
-    height: 5rem;
+    min-height: 5rem;
     background: #254083;
     box-shadow: 0px 1px 7px 0px rgba(168, 168, 168, 0.25);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header .header-container-1 .header-numbers-icons {
@@ -229,6 +230,7 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 .company {
     padding-bottom: 8rem;
     margin-top: 16rem;
+    margin-bottom: 15rem;
 }
 
 .company .company-container {
@@ -279,13 +281,13 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 
 footer {
     width: 100%;
-    margin-top: 15rem;
 }
 
 footer .footer-container {
     background: #254083;
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
 }
 
 footer .footer-container .footer-container-1 {
@@ -293,6 +295,7 @@ footer .footer-container .footer-container-1 {
     justify-content: space-between;
     padding-bottom: 8rem;
     padding: 8rem 8rem 3rem 8rem;
+    flex-wrap: wrap;
 }
 
 footer .footer-container .footer-container-1 .footer-items-container {

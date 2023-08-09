@@ -25,3 +25,16 @@ var swiperStore = new Swiper(".storeSwiper", {
         clickable: true,
     },
 });
+
+var swiperStore = new Swiper(".magazaSwipper", {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 1200,
+      },
+    loop:true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
