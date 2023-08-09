@@ -153,30 +153,21 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     background-color: #bd8f46;
 }
 
-/*! Precinct */
 
-.precinct {
-    padding: 0 8rem;
-    padding-top: 2rem;
-    padding-bottom: 8rem;
-}
+/*! --------------------- */
 
-.precinct .precinct-container {
-    display: flex;
-    flex-direction: column;
-    gap: 4.2rem;
-}
-
-.precinct .precinct-container .precinct-top-container p {
+.page-text {
     color: #254083;
     font-family: Poppins;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 8rem;
+    padding-top: 2rem;
 }
 
-.precinct .precinct-container .precinct-top-container p a {
+.page-text .page-a {
     color: #B3B3B3;
     font-family: Poppins;
     font-size: 1.2rem;
@@ -185,153 +176,113 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: normal;
 }
 
-.precinct .precinct-container .precinct-center-container {
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-    align-items: center;
-}
-
-.precinct .precinct-container .precinct-center-container h2 {
-    text-align: center;
-    color: #254083;
-    font-family: Montserrat;
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 50px;
-}
-
-.precinct .precinct-container .precinct-center-container .precinct-content {
-    display: flex;
-    gap: 1rem;
-}
-
-.precinct .precinct-container .precinct-center-container .precinct-content .precinct-text {
-    width: 8.9rem;
-    height: 4rem;
-    border-radius: 10px;
-    border: 0.5px solid #005B7F;
-    box-shadow: 0px 2px 7px 0px #BDC2FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #404040;
-    font-family: Montserrat;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
-    transition: all 0.25s ease-in-out;
-}
+/*! --------------------- */
 
 
-.precinct .precinct-container .precinct-center-container .precinct-content .precinct-text:hover {
-    background: #254083;
-    color: #fff;
-}
+/*! Company */
 
-/*! Recipes */
-
-.recipes {
+.company {
     padding: 0 8rem;
-    padding-bottom: 12rem;
-    padding-top: 5rem;
+    padding-top: 4.2rem;
+    padding-bottom: 15rem;
 }
 
-.recipes .recipes-container {
+.company .company-container {
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+    gap: 5rem;
 }
 
-.recipes .recipes-container .recipes-top-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.recipes .recipes-container .recipes-top-container h2 {
+.company .company-container .company-content-top h2 {
     color: #254083;
     font-family: Montserrat;
     font-size: 3.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: 5rem;
+    text-align: center;
 }
 
-.recipes .recipes-container .recipes-top-container select {
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.new-content {
     width: 30.5rem;
-    height: 4rem;
+    height: 42.8rem;
     border-radius: 1rem;
-    border: 0.05rem solid #005B7F;
     background: #FFF;
-    outline: none;
-    padding-left: 2.7rem;
+    box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.50);
+    cursor: pointer;
+    transition: all 0.126s ease-in;
 }
 
-.recipes .recipes-container .recipes-top-container select option {
-    color: #404040;
-    font-family: Montserrat;
+.new-content:hover {
+    box-shadow: 1px 3px 7px 1px rgba(206, 222, 250, 0.9);
+}
+
+.new-content .new-card {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.new-content .new-card .new-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 26.5rem;
+    color: #58595B;
+    font-family: Poppins;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.recipes .recipes-container .recipes-center-container {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-1 {
-    display: flex;
-    gap: 21rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-1 .empty {
-    width: 15rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container {
-    display: flex;
-    gap: 8rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container p {
-    color: #404040;
-    font-family: Poppins;
-    font-size: 1.4rem;
+.new-content .new-card .new-card-text h4 {
+    color: #005B7F;
+    font-family: Montserrat;
+    font-size: 1.6rem;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 600;
     line-height: normal;
 }
 
-.recipes .recipes-container .recipes-center-container .recipes-content-2 {
+.new-content .new-card .new-card-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 135rem;
-    height: 6.4rem;
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.7);
-    padding: 0 4rem;
 }
 
-.recipes .recipes-container .recipes-center-container .recipes-content-2 .full {
-    color: #254083;
-    font-family: Montserrat;
-    font-size: 1.7rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-2 .measure-container {
+.new-content .new-card .new-card-bottom .new-card-bottom-text {
     display: flex;
-    gap: 13rem;
+    flex-direction: column;
+}
+
+.new-content .new-card .new-card-bottom .new-card-bottom-text small {
+    color: #005B7F;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;n;
+}
+
+.new-content .new-card .new-card-bottom i {
+    padding: 1.2rem;
+    font-size: 1.4rem;
+    background-color: #FFAB21;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.126s ease-in-out;
+}
+
+.new-content .new-card .new-card-bottom i:hover {
+    background-color: #bd8f46;
 }
 
 /*! Footer */

@@ -153,21 +153,21 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     background-color: #bd8f46;
 }
 
-/*! Precinct */
+/*! Store */
 
-.precinct {
+.store {
     padding: 0 8rem;
     padding-top: 2rem;
-    padding-bottom: 8rem;
+    padding-bottom: 14rem;
 }
 
-.precinct .precinct-container {
+.store .store-container {
     display: flex;
     flex-direction: column;
     gap: 4.2rem;
 }
 
-.precinct .precinct-container .precinct-top-container p {
+.store .store-container .store-top-container p {
     color: #254083;
     font-family: Poppins;
     font-size: 1.2rem;
@@ -176,24 +176,25 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: normal;
 }
 
-.precinct .precinct-container .precinct-top-container p a {
-    color: #B3B3B3;
-    font-family: Poppins;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.store .store-container .store-top-container p a {
+    color: #b3b3b3;
 }
 
-.precinct .precinct-container .precinct-center-container {
+.store .store-container .store-center-container {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
     align-items: center;
+    gap: 6rem;
 }
 
-.precinct .precinct-container .precinct-center-container h2 {
-    text-align: center;
+.store .store-container .store-center-container .store-begin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.store .store-container .store-center-container .store-begin h2 {
     color: #254083;
     font-family: Montserrat;
     font-size: 3.5rem;
@@ -202,75 +203,19 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: 50px;
 }
 
-.precinct .precinct-container .precinct-center-container .precinct-content {
+.store .store-container .store-center-container .store-begin .store-flag-country {
     display: flex;
-    gap: 1rem;
-}
-
-.precinct .precinct-container .precinct-center-container .precinct-content .precinct-text {
-    width: 8.9rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.536rem;
+    width: 13.9rem;
     height: 4rem;
     border-radius: 10px;
     border: 0.5px solid #005B7F;
-    box-shadow: 0px 2px 7px 0px #BDC2FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #404040;
-    font-family: Montserrat;
-    font-size: 1.6rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    cursor: pointer;
-    transition: all 0.25s ease-in-out;
-}
-
-
-.precinct .precinct-container .precinct-center-container .precinct-content .precinct-text:hover {
-    background: #254083;
-    color: #fff;
-}
-
-/*! Recipes */
-
-.recipes {
-    padding: 0 8rem;
-    padding-bottom: 12rem;
-    padding-top: 5rem;
-}
-
-.recipes .recipes-container {
-    display: flex;
-    flex-direction: column;
-    gap: 8rem;
-}
-
-.recipes .recipes-container .recipes-top-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.recipes .recipes-container .recipes-top-container h2 {
-    color: #254083;
-    font-family: Montserrat;
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 5rem;
-}
-
-.recipes .recipes-container .recipes-top-container select {
-    width: 30.5rem;
-    height: 4rem;
-    border-radius: 1rem;
-    border: 0.05rem solid #005B7F;
     background: #FFF;
-    outline: none;
-    padding-left: 2.7rem;
 }
 
-.recipes .recipes-container .recipes-top-container select option {
+.store .store-container .store-center-container .store-begin .store-flag-country .text-country {
     color: #404040;
     font-family: Montserrat;
     font-size: 1.4rem;
@@ -279,65 +224,62 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: normal;
 }
 
-.recipes .recipes-container .recipes-center-container {
+/*! Company */
+
+.company {
+    padding-bottom: 8rem;
+    margin-top: 16rem;
+}
+
+.company .company-container {
+    margin: 0 11.7rem;
+    padding-bottom: 10rem;
+    position: relative;
+}
+
+.company .company-container .company-content {
+    width: 128rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 7.2rem;
+}
+
+.company .company-container .company-content .swiper-slide {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 }
 
-.recipes .recipes-container .recipes-center-container .recipes-content-1 {
-    display: flex;
-    gap: 21rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-1 .empty {
-    width: 15rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container {
-    display: flex;
-    gap: 8rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container p {
-    color: #404040;
-    font-family: Poppins;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 135rem;
-    height: 6.4rem;
+.company .company-container .company-content .swiper-slide .company-content-image {
+    width: 30.5rem;
+    height: 14rem;
     border-radius: 10px;
     background: #FFF;
-    box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.7);
-    padding: 0 4rem;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-2 .full {
-    color: #254083;
-    font-family: Montserrat;
-    font-size: 1.7rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.recipes .recipes-container .recipes-center-container .recipes-content-2 .measure-container {
+    box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.5);
     display: flex;
-    gap: 13rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.126s ease-out;
+}
+
+.company .company-container .company-content .swiper-slide .company-content-image:hover {
+    box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.81);
+}
+
+.company .company-container .company-content .company-content-image img {
+    width: 11.8rem;
+    height: 4.8rem;
 }
 
 /*! Footer */
 
 footer {
     width: 100%;
+    margin-top: 15rem;
 }
 
 footer .footer-container {

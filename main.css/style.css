@@ -13,6 +13,7 @@ html {
 
 /*! Header */
 
+
 header {
     height: 5rem;
     background: #FFF;
@@ -443,7 +444,7 @@ header .header-item-2 .navbar-content .yellow-text {
 /*! New */
 
 .new {
-    padding: 12rem 8rem 19.5rem 8rem;
+    padding: 12rem 8rem 19.5rem 3rem;
     background-color: #F4F5F7;
 }
 
@@ -562,12 +563,17 @@ header .header-item-2 .navbar-content .yellow-text {
 
 .company .company-container .company-content {
     width: 128rem;
-    height: 14rem;
+    height: 10rem;
     border-radius: 1rem;
     background: #FFF;
     display: flex;
     align-items: center;
     gap: 7.2rem;
+}
+
+.company .company-container .company-content .company-content-image img {
+    width: 11.8rem;
+    height: 4.8rem;
 }
 
 /*! Footer */

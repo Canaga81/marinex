@@ -4,7 +4,22 @@ var swiper = new Swiper(".mySwiper", {
     autoplay: {
         delay: 1000,
       },
-     loop:true,
+    loop:true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+
+
+var swiperStore = new Swiper(".storeSwiper", {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 1500,
+      },
+    loop:true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
