@@ -147,7 +147,7 @@ header .header-item-2 .navbar-content .yellow-text {
 .price .price-container .price-top-container .price-navbar a {
     color: #58595B;
     font-family: Poppins;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -570,6 +570,7 @@ header .header-item-2 .navbar-content .yellow-text {
     display: flex;
     align-items: center;
     gap: 7.2rem;
+    padding-left: 10rem;
 }
 
 .company .company-container .company-content .company-content-image img {

@@ -17,3 +17,14 @@ btn_2.addEventListener("click", () => {
 btn_3.addEventListener("click", () => {
     conditionText3.classList.toggle("background");
 });
+
+
+const toggles = document.querySelectorAll(".joke-toggle");
+
+toggles.forEach((toggle) => {
+
+    toggle.addEventListener("click", () => {
+        toggle.parentNode.classList.toggle('active');
+    });
+
+});
