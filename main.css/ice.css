@@ -82,10 +82,6 @@ header .header-container-1 .header-icons-content .header-content {
     gap: 2rem;
 }
 
-header .header-container-2 .header-content .price-pages .price-pages-text {
-    display: none;
-}
-
 header .header-container-1 .header-icons-content .header-content .white-text {
     color: #FFF;
     font-family: Poppins;
@@ -138,10 +134,8 @@ header .header-container-2 .header-content .header-navbar a:hover {
 }
 
 header .header-container-2 .header-content .header-button .header-btn {
-    max-width: 22.4rem;
-    min-width: 15.5rem;
-    max-height: 4rem;
-    min-height: 3.6rem;
+    width: 22.4rem;
+    height: 4rem;
     border-radius: 1rem;
     background: #FFAB21;
     box-shadow: 0px 2px 7px 0px #BDC2FF;
@@ -160,23 +154,21 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     background-color: #bd8f46;
 }
 
-/*! About */
+/*! Contack */
 
-.about {
+.contack {
     padding: 0 8rem;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
 }
 
-.about .about-container {
+.contack .contack-container {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6.2rem;
 }
 
-.about .about-container .about-top-container {
-    padding-top: 2rem;
-}
-
-.about .about-container .about-top-container p {
+.contack .contack-container .contack-top-container p {
     color: #254083;
     font-family: Poppins;
     font-size: 1.2rem;
@@ -185,87 +177,212 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: normal;
 }
 
-.about .about-container .about-top-container p a {
+.contack .contack-container .contack-top-container p a {
     color: #B3B3B3;
 }
 
-.about .about-container .about-center-container {
+.contack .contack-container .contack-center-container {
+    display: flex;
+    gap: 13.1rem;
+}
+
+.contack .contack-container .contack-center-container .contack-left {
+    width: 42.7rem;
+    height: 54.7rem;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.9);
+    /*! Diqqet */
+    padding: 8rem 10rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 9rem;
-}
+    gap: 4.7rem;
+} 
 
-.about .about-container .about-center-container .about-center-image img {
-    width: 100%;
-}
-
-.about .about-container .about-center-container .about-center-read {
+.contack .contack-container .contack-center-container .contack-left .contack-left-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1.8rem;
+    align-items: start;
+    gap: 1.7rem;
 }
 
-.about .about-container .about-center-container .about-center-read h3 {
-    color: #254083;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 3.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 2.4rem;
-}
-
-.about .about-container .about-center-container .about-center-read .about-paragraph {
-    max-width: 82.8rem;
-    text-align: center;
-}
-
-.about .about-container .about-center-container .about-center-read .about-paragraph p {
+.contack .contack-container .contack-center-container .contack-left .contack-left-container h4 {
     color: #404040;
-    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-items .contack-left-content {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-items .contack-left-content i {
+    font-size: 1.5rem;
+    color: #FDB913;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-items .contack-left-content small {
+    color: #404040;
     font-family: Poppins;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 2.4rem;
+    line-height: normal;
 }
 
-/*! Company */
-
-.company {
-    background-color: #fff;
-    margin-top: 9rem;
-}
-
-.company .company-container {
-    margin: 0 11.7rem;
-    padding-bottom: 10rem;
-    position: relative;
-}
-
-.company .company-container .company-content {
-    max-width: 128rem;
-    height: 10rem;
-    border-radius: 1rem;
-    background: #FFF;
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-items .contack-left-content .contack-tel {
     display: flex;
-    align-items: center;
-    gap: 7.2rem;
-    padding-left: 10rem;
+    gap: 0.8rem;
 }
 
-.company .company-container .company-content .company-content-image img {
-    width: 11.8rem;
-    height: 4.8rem;
-    max-width: 100%;
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-items .contack-left-content .contack-tel a {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-items .contack-left-content p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-text p {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-icons {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.contack .contack-container .contack-center-container .contack-left .contack-left-container .contack-icons i {
+    font-size: 1.2rem;
+    color: #FDB913;
+}
+
+.contack .contack-container .contack-center-container .contack-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5.2rem;
+}
+
+.contack .contack-container .contack-center-container .contack-right h2 {
+    color: #254083;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.contack .contack-container .contack-center-container .contack-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contack .contack-container .contack-center-container .contack-right form .contack-inputs-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.contack .contack-container .contack-center-container .contack-right form .contack-inputs-container input {
+    width: 31.5rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 0.5px solid #005B7F;
+    background: #FFF;
+    padding-left: 2.3rem;
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.contack .contack-container .contack-center-container .contack-right form .contack-input input {
+    width: 65rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 0.5px solid #005B7F;
+    background: #FFF;
+    outline: none;
+    text-transform: capitalize;
+    padding-left: 2.3rem;
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contack .contack-container .contack-center-container .contack-right form .contack-input-r1 textarea {
+    width: 65rem;
+    height: 12.7rem;
+    border-radius: 10px;
+    border: 0.5px solid #005B7F;
+    background: #FFF;
+    color: #404040;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+    text-transform: capitalize;
+    padding-left: 2.3rem;
+    padding-top: 1rem;
+    resize: none;
+}
+
+.contack .contack-container .contack-center-container .contack-right form .input-btn input {
+    width: 65rem;
+    height: 4rem;
+    border-radius: 10px;
+    background: #FFAB21;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.contack .contack-container .contack-center-container .contack-right form .input-btn input:hover {
+    background-color: chocolate;
+}
 
 /*! Footer */
-
 
 footer {
     width: 100%;
@@ -480,207 +597,4 @@ footer .footer-container .footer-container-2 .footer-content-items p {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-}
-
-/*! Responsive */
-
-@media(max-width: 1285px) {
-    
-    html {
-        font-size: 50.5%;
-    }
-
-    header .header-container-2 .header-button .header-content {
-        display: flex;
-        gap: 0.5rem;
-    }
-
-}
-
-@media(max-width: 900px) {
-
-    html {
-        font-size: 50.5%;
-    }
-
-    /*! Header */
-
-    header {
-        min-height: 5rem;
-    }
-
-    header .header-container-1 {
-        padding: 3rem 3rem;
-        gap: 1.5rem;
-    }
-
-    header .header-container-1 .header-numbers-icons {
-        gap: 5.7rem;
-    }
-
-    header .header-container-1 .currency{
-        gap: 5.7rem;
-    }
-
-    header .header-container-1 .header-numbers-icons .header-number-icon {
-        gap: 2rem;
-    }
-
-    header .header-container-2 {
-        padding: 0 3rem;
-    }
-
-    header .header-container-2 .header-content {
-        position: relative;
-        gap: 3.6rem;
-    }
-
-    header .header-container-2 .header-content .header-navbar {
-        display: none;
-    }
-
-    header .header-container-2 .header-content .header-navbar.active {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        position: absolute;
-        top: 98%;
-        left: 42%;
-        background-color: #5b5656;
-        padding: 1rem;
-        border-radius: 0.6rem;
-    }
-
-    header .header-container-2 .header-content .header-navbar.active a {
-        color: #fff;
-    }
-
-    header .header-container-2 .header-content .header-navbar.active a:hover {
-        color: #8A8A8A;
-    }
-
-    header .header-container-2 .header-content .price-pages .price-pages-text {
-        display: block;
-        background-color: rgb(122, 121, 121);
-        color: #fff;
-        padding: 1rem 3rem;
-        border-radius: 1rem;
-        letter-spacing: 0.1rem;
-        opacity: 1;
-    }
-
-    header .header-container-2 .header-content .header-button .header-btn {
-        height: 3.6rem;
-        width: 15.4rem;
-    }
-    
-}
-
-@media(max-width: 420px) {
-
-    html {
-        font-size: 48.5%;
-    }
-
-    /*! Header */
-
-    header {
-        min-height: 5rem;
-    }
-
-    header .header-container-1 {
-        padding: 3rem 3rem;
-        gap: 1.5rem;
-    }
-
-    header .header-container-1 .header-numbers-icons {
-        gap: 5.7rem;
-    }
-
-    header .header-container-1 .currency{
-        gap: 5.7rem;
-    }
-
-    header .header-container-1 .header-numbers-icons .header-number-icon {
-        gap: 2rem;
-    }
-
-    header .header-container-2 {
-        padding: 0 3rem;
-    }
-
-    header .header-container-2 .header-content {
-        position: relative;
-        gap: 3.6rem;
-    }
-
-    header .header-container-2 .header-content .header-navbar {
-        display: none;
-    }
-
-    header .header-container-2 .header-content .header-navbar.active {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        position: absolute;
-        top: 98%;
-        left: 30%;
-        background-color: #5b5656;
-        padding: 1rem;
-        border-radius: 0.6rem;
-    }
-
-    header .header-container-2 .header-content .header-navbar.active a {
-        color: #fff;
-    }
-
-    header .header-container-2 .header-content .header-navbar.active a:hover {
-        color: #8A8A8A;
-    }
-
-    header .header-container-2 .header-content .price-pages .price-pages-text {
-        display: block;
-        background-color: rgb(122, 121, 121);
-        color: #fff;
-        padding: 1rem 3rem;
-        border-radius: 1rem;
-        letter-spacing: 0.1rem;
-        opacity: 1;
-    }
-
-    header .header-container-2 .header-content .header-button .header-btn {
-        height: 3.6rem;
-        width: 15.4rem;
-    }
-
-    /*! About */
-
-    .about {
-        padding: 0 3rem;
-    }
-
-    /*! Company */
-
-    .company .company-container {
-        margin: 0 2rem;
-        padding-bottom: 10rem;
-        position: relative;
-    }
-
-    .company .company-container .company-content {
-        gap: 3.2rem;
-        padding-left: 3rem;
-        width: 45rem;
-    }
-
-    /*! Footer */
-
-    footer .footer-container .footer-container-1 {
-        gap: 6rem;
-    }
-
-    footer .footer-container .footer-container-1 .footer-icons {
-        display: flex;
-        gap: 3rem;
-    }
 }

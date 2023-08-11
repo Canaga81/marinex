@@ -82,6 +82,10 @@ header .header-container-1 .header-icons-content .header-content {
     gap: 2rem;
 }
 
+header .header-container-2 .header-content .price-pages .price-pages-text {
+    display: none;
+}
+
 header .header-container-1 .header-icons-content .header-content .white-text {
     color: #FFF;
     font-family: Poppins;
@@ -134,8 +138,10 @@ header .header-container-2 .header-content .header-navbar a:hover {
 }
 
 header .header-container-2 .header-content .header-button .header-btn {
-    width: 22.4rem;
-    height: 4rem;
+    max-width: 22.4rem;
+    min-width: 15.5rem;
+    max-height: 4rem;
+    min-height: 3.6rem;
     border-radius: 1rem;
     background: #FFAB21;
     box-shadow: 0px 2px 7px 0px #BDC2FF;
@@ -191,6 +197,10 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     align-items: center;
 }
 
+.calculator .calculator-container .calculator-center-container .calculator-image img {
+    width: 100%;
+}
+
 .calculator .calculator-container .calculator-center-container .calculator-content {
     display: flex;
     flex-direction: column;
@@ -213,7 +223,7 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .calculator .calculator-container .calculator-center-container .calculator-content .calculator-content-texts .calculator-paragraph {
-    width: 412px;
+    max-width: 412px;
 }
 
 
@@ -244,8 +254,10 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-left select {
-    width: 30.5rem;
+    max-width: 30.5rem;
+    min-width: 12rem;
     height: 4rem;
+    min-height: 3rem;
     border-radius: 1rem;
     border: 0.05rem solid #005B7F;
     background: #FFF;
@@ -263,7 +275,8 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-left input {
-    width: 30.5rem;
+    max-width: 30.5rem;
+    min-width: 12rem;
     height: 4rem;
     border-radius: 1rem;
     border: 0.05rem solid #005B7F;
@@ -282,7 +295,8 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-right select {
-    width: 30.5rem;
+    max-width: 30.5rem;
+    min-width: 12rem;
     height: 4rem;
     border-radius: 1rem;
     border: 0.05rem solid #005B7F;
@@ -301,7 +315,8 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs .calculator-inputs-right input {
-    width: 30.5rem;
+    max-width: 30.5rem;
+    min-width: 12rem;
     height: 4rem;
     border-radius: 1rem;
     border: 0.05rem solid #005B7F;
@@ -320,8 +335,10 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .calculator .calculator-container .calculator-center-container .calculator-content .calculator-btn {
-    width: 63rem;
+    max-width: 63rem;
+    min-width: 12rem;
     height: 4rem;
+    min-height: 3rem;
     border-radius: 1rem;
     background: #254083;
     box-shadow: 0px 2px 7px 0px #BDC2FF;
@@ -369,7 +386,7 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .recipes .recipes-container .recipes-top-container select {
-    width: 30.5rem;
+    max-width: 30.5rem;
     height: 4rem;
     border-radius: 1rem;
     border: 0.05rem solid #005B7F;
@@ -399,7 +416,7 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 .recipes .recipes-container .recipes-center-container .recipes-content-1 .empty {
-    width: 15rem;
+    max-width: 15rem;
 }
 
 .recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container {
@@ -420,8 +437,8 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 135rem;
-    height: 6.4rem;
+    max-width: 135rem;
+    min-height: 6.4rem;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 1px 7px 0px rgba(206, 222, 250, 0.7);
@@ -443,6 +460,7 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
 }
 
 /*! Footer */
+
 
 footer {
     width: 100%;
@@ -657,4 +675,234 @@ footer .footer-container .footer-container-2 .footer-content-items p {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/*! Responsive */
+
+@media(max-width: 1285px) {
+
+    html {
+        font-size: 50.5%;
+    }
+
+    header .header-container-2 .header-button .header-content {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    html {
+        font-size: 50.5%;
+    }
+
+    /*! Header */
+
+    header {
+        min-height: 5rem;
+    }
+
+    header .header-container-1 {
+        padding: 3rem 3rem;
+        gap: 1.5rem;
+    }
+
+    header .header-container-1 .header-numbers-icons {
+        gap: 5.7rem;
+    }
+
+    header .header-container-1 .currency{
+        gap: 5.7rem;
+    }
+
+    header .header-container-1 .header-numbers-icons .header-number-icon {
+        gap: 2rem;
+    }
+
+    header .header-container-2 {
+        padding: 0 3rem;
+    }
+
+    header .header-container-2 .header-content {
+        position: relative;
+        gap: 3.6rem;
+    }
+
+    header .header-container-2 .header-content .header-navbar {
+        display: none;
+    }
+
+    header .header-container-2 .header-content .header-navbar.active {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 98%;
+        left: 42%;
+        background-color: #5b5656;
+        padding: 1rem;
+        border-radius: 0.6rem;
+    }
+
+    header .header-container-2 .header-content .header-navbar.active a {
+        color: #fff;
+    }
+
+    header .header-container-2 .header-content .header-navbar.active a:hover {
+        color: #8A8A8A;
+    }
+
+    header .header-container-2 .header-content .price-pages .price-pages-text {
+        display: block;
+        background-color: rgb(122, 121, 121);
+        color: #fff;
+        padding: 1rem 3rem;
+        border-radius: 1rem;
+        letter-spacing: 0.1rem;
+        opacity: 1;
+    }
+
+    header .header-container-2 .header-content .header-button .header-btn {
+        height: 3.6rem;
+        width: 15.4rem;
+    }
+    
+}
+
+
+@media(max-width: 420px) {
+
+    html {
+        font-size: 48.5%;
+    }
+
+    /*! Header */
+
+    header {
+        min-height: 5rem;
+    }
+
+    header .header-container-1 {
+        padding: 3rem 3rem;
+        gap: 1.5rem;
+    }
+
+    header .header-container-1 .header-numbers-icons {
+        gap: 5.7rem;
+    }
+
+    header .header-container-1 .currency{
+        gap: 5.7rem;
+    }
+
+    header .header-container-1 .header-numbers-icons .header-number-icon {
+        gap: 2rem;
+    }
+
+    header .header-container-2 {
+        padding: 0 3rem;
+    }
+
+    header .header-container-2 .header-content {
+        position: relative;
+        gap: 3.6rem;
+    }
+
+    header .header-container-2 .header-content .header-navbar {
+        display: none;
+    }
+
+    header .header-container-2 .header-content .header-navbar.active {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 98%;
+        left: 30%;
+        background-color: #5b5656;
+        padding: 1rem;
+        border-radius: 0.6rem;
+    }
+
+    header .header-container-2 .header-content .header-navbar.active a {
+        color: #fff;
+    }
+
+    header .header-container-2 .header-content .header-navbar.active a:hover {
+        color: #8A8A8A;
+    }
+
+    header .header-container-2 .header-content .price-pages .price-pages-text {
+        display: block;
+        background-color: rgb(122, 121, 121);
+        color: #fff;
+        padding: 1rem 3rem;
+        border-radius: 1rem;
+        letter-spacing: 0.1rem;
+        opacity: 1;
+    }
+
+    header .header-container-2 .header-content .header-button .header-btn {
+        height: 3.6rem;
+        width: 15.4rem;
+    }
+
+    /*! Calculator */
+
+    .calculator {
+        padding: 0 3rem;
+        padding-top: 3rem;
+    }
+
+    .calculator .calculator-container .calculator-center-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calculator .calculator-container .calculator-center-container .calculator-content .calculator-inputs {
+        display: flex;
+        gap: 1rem;
+    }
+
+    /*! Recipes */
+
+    .recipes {
+        padding: 0 3rem;
+        padding-bottom: 12rem;
+        padding-top: 5rem;
+    }
+
+    .recipes .recipes-container .recipes-center-container .recipes-content-2 .measure-container {
+        display: flex;
+        gap: 3.6rem;
+    }
+
+    .recipes .recipes-container .recipes-center-container .recipes-content-1 .empty {
+        display: none;
+    }
+    
+    .recipes .recipes-container .recipes-center-container .recipes-content-1 .measure-container {
+        display: flex;
+        gap: 3.6rem;
+    }
+    
+    .recipes .recipes-container .recipes-center-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container .footer-container-1 {
+        gap: 6rem;
+    }
+
+    footer .footer-container .footer-container-1 .footer-icons {
+        display: flex;
+        gap: 3rem;
+    }
+
 }
