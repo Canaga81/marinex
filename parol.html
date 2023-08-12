@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="main.css/lexus.css">
+    <link rel="stylesheet" href="main.css/prius.css">
     <title>Daxil Ol</title>
 </head>
 
@@ -93,42 +93,127 @@
 
     <!--! Header End -->
 
-    <section class="enter">
-        <div class="enter-container">
-            <div class="enter-content-1">
-                <div class="enter-image">
-                    <img src="images/freepik--Characters--inject-2.png" alt="enter-image">
-                </div>
-            </div>
+    <section class="icloud">
+        <div class="icloud-container">
+            <h2>Yeni hesab yarat</h2>
 
-            <div class="enter-content-2">
-                <h2>Daxil ol</h2>
-
-                <form action="#">
-                    <div class="form-inputs">
-                        <input type="email" placeholder="E-mail" required>
-                        <input type="password" placeholder="Parol" required>
+            <form action="#">
+                <div class="input-container">
+                    <div class="input-content">
+                        <small>Ad</small>
+                        <input type="text" required>
                     </div>
 
-                    <input class="input-btn" type="button" value="Daxil ol">
-
-                    <div class="form-container">
-                        <div class="form-content-1">
-                            <input type="checkbox">
-                            <p>Məni yadda saxla</p>
-                        </div>
-
-                        <div class="form-content-2">
-                            <a href="unutmaq.html">Parolu unutmusunuz?</a>
-                        </div>
+                    <div class="input-content">
+                        <small>Soyad</small>
+                        <input type="text" required>
                     </div>
-                </form>
+                </div>
 
-                <div class="form-bottom">
-                    <a href="parol.html" class="black-text">Hesabınız yoxdur?</a>
-                    <a href="#" class="blue-text">Qeydiyyatdan keç</a>
+                <div class="input-container">
+                    <div class="input-content">
+                        <small>Doğum tarixi</small>
+                        <input type="datetime-local">
+                    </div>
+
+                    <div class="input-content">
+                        <small>Cinsiyyət</small>
+                        <select class="user">
+                            <option value="Cinsiyyət">Kisi</option>
+                            <option value="Cinsiyyət">Qadin</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-content item">
+                        <small>Şəxsiyyət vəsiqəsinin seriyası</small>
+                        <select class="country">
+                            <option>Aze</option>
+                            <option>Rus</option>
+                            <option>Eng</option>
+                        </select>
+                        <input class="input-countries" type="text" required>
+                    </div>
+
+                    <div class="input-content">
+                        <small>Fin</small>
+                        <input type="password" required>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-content">
+                        <small>Şəhər</small>
+                        <input type="text" placeholder="Şəhəri seçin">
+                    </div>
+
+                    <div class="input-content">
+                        <small>Telefon</small>
+                        <input type="number">
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-content">
+                        <small class="input-small">Ünvan</small>
+                        <input class="long-input" type="text">
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-content">
+                        <small>Təhvil almaq istədiyin filial</small>
+                        <select class="input-select">
+                            <option>Genclik</option>
+                            <option>Nerimanov</option>
+                            <option>28 May</option>
+                            <option>Koroglu</option>
+                            <option>Elmler Akademiyasi</option>
+                            <option>Ecemi</option>
+                        </select>
+                    </div>
+
+                    <div class="input-content">
+                        <small>E-mail</small>
+                        <input type="email" required>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <div class="input-content">
+                        <small>Şifrə</small>
+                        <input type="password" required>
+                    </div>
+
+                    <div class="input-content">
+                        <small>Şifrənin təkrarı</small>
+                        <input type="password" required>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <input class="input-btn" type="button" value="Qeydiyyat">
+                </div>
+
+            </form>
+
+            <div class="input-text-container">
+                <div class="input-text">
+                    <input type="checkbox">
+                    <p class="input-p-text">İstifadəçi şərtlərini qəbul edirəm</p>
+                </div>
+    
+                <div class="input-text">
+                    <p class="input-blue">Hesabına <span>Daxil ol</span></p>
+                </div>
+    
+                <div class="input-text">
+                    <i class="fa-solid fa-video"></i>
+                    <p class="proses">Qeydiyyat prosesini izləyin</p>
                 </div>
             </div>
+            
         </div>
     </section>
 
@@ -237,6 +322,7 @@
     </footer>
 
     <!--! Footer End -->
+
 
     <script src="full.js"></script>
 

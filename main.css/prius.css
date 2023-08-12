@@ -160,165 +160,211 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     background-color: #bd8f46;
 }
 
-/*! Enter */
+/*! Icloud */
 
-.enter {
-    padding: 6rem 18.5rem 12.5rem 14.8rem;
+.icloud {
+    padding: 10rem 22.2rem 7.2rem 22.3rem;
 }
 
-.enter .enter-container {
-    display: flex;
-    align-items: center;
-    gap: 10.3rem;
-}
-
-.enter .enter-container .enter-content-1 .enter-image img {
-    width: 100%;
-}
-
-.enter .enter-container .enter-content-2 {
+.icloud .icloud-container {
     display: flex;
     flex-direction: column;
-    gap: 4.2rem;
-    justify-content: center;
-    padding: 0 7.9rem;
-    max-width: 49.3rem;
-    height: 49.8rem;
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 0px 1px 10px 0px rgba(192, 215, 255, 0.60);
+    align-items: center;
+    gap: 5rem;
 }
 
-.enter .enter-container .enter-content-2 h2 {
-    color: #254083;
+.icloud .icloud-container h2 {
+    color: #234;
     font-family: Montserrat;
     font-size: 3.5rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
 }
 
-.enter .enter-container .enter-content-2 form {
+.icloud .icloud-container form {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    /* align-items: center; */
+    gap: 1.6rem;
 }
 
-.enter .enter-container .enter-content-2 form .form-inputs {
+.icloud .icloud-container form .input-container {
     display: flex;
-    flex-direction: column;
     gap: 2rem;
 }
 
-.enter .enter-container .enter-content-2 form .form-inputs input {
-    width: 33.5rem;
-    height: 4rem;
-    border-radius: 10px;
-    border: 0.5px solid #005B7F;
-    background: #FFF;
-    padding-left: 2.3rem;
-    outline: none;
+.icloud .icloud-container form .input-container .input-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
 }
 
-.enter .enter-container .enter-content-2 form .form-inputs input::placeholder {
+.icloud .icloud-container form .input-container .input-content small {
     color: #404040;
-    font-family: Poppins;
-    font-size: 1.4rem;
+    font-family: Montserrat;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
+    padding-left: 2rem;
 }
 
-.enter .enter-container .enter-content-2 form .input-btn {
-    width: 33.5rem;
+.icloud .icloud-container form .input-container .input-content input {
+    max-width: 48.7rem;
+    width: 48.7rem;
     height: 4rem;
     border-radius: 10px;
+    border: 1px solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding-left: 1.5rem;
+}
+
+.icloud .icloud-container form .input-container .input-content .user {
+    max-width: 48.7rem;
+    width: 48.7rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 1px solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding: 0 1.5rem;
+}
+
+.icloud .icloud-container form .input-container .input-content.item .input-countries {
+    padding-left: 8.1rem;
+}
+
+.icloud .icloud-container form .input-container .input-content.item {
+    position: relative;
+}
+
+.icloud .icloud-container form .input-container .input-content .country {
+    max-width: 6rem;
+    width: 6rem;
+    min-width: 4rem;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 3rem;
+    left: 1.5rem;
+    z-index: 1000;
+    outline: none;
+}
+
+.icloud .icloud-container form .input-container .input-content .input-small {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 2rem;
+}
+
+.icloud .icloud-container form .input-container .input-content .long-input {
+    max-width: 99.5rem;
+    min-width: 48.7rem;
+    width: 99.5rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 1px solid #005B7F;
+    background: #FFF;
+}
+
+.icloud .icloud-container form .input-container .input-content .input-select {
+    max-width: 48.8rem;
+    width: 48.8rem;
+    height: 4rem;
+    border-radius: 10px;
+    border: 1px solid #005B7F;
+    background: #FFF;
+    outline: none;
+    padding-left: 1.5rem;
+}
+
+.icloud .icloud-container form .input-container .input-btn {
+    max-width: 99.55rem;
+    min-width: 48.7rem;
+    width: 99.55rem;
+    max-height: 4rem;
+    height: 4rem;
+    min-width: 3.6rem;
+    border-radius: 10px;
     background: #FFAB21;
+    border: none;
     color: #FFF;
     font-family: Poppins;
     font-size: 1.4rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
-    letter-spacing: 0.1rem;
-    border: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
 
-.enter .enter-container .enter-content-2 form .input-btn:hover {
+.icloud .icloud-container form .input-container .input-btn:hover {
     background-color: #bd8f46;
 }
 
-.enter .enter-container .enter-content-2 form .form-container {
+.icloud .icloud-container .input-text-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: -1.5rem;
+    gap: 19.9rem;
 }
 
-.enter .enter-container .enter-content-2 form .form-container .form-content-1 {
+.icloud .icloud-container .input-text-container .input-text {
     display: flex;
+    align-items: center;
     gap: 0.7rem;
-    align-items: center;
 }
 
-.enter .enter-container .enter-content-2 form .form-container .form-content-1 input {
+.icloud .icloud-container .input-text-container .input-text input {
     width: 1.6rem;
     height: 1.6rem;
     border-radius: 3px;
-    border: 0.5px solid #FFAB21;
+    border: 1px solid #FFAB21;
     background: #FFF;
 }
 
-.enter .enter-container .enter-content-2 form .form-container .form-content-1 p {
+.icloud .icloud-container .input-text-container .input-text .input-p-text {
     color: #404040;
-    font-family: Poppins;
+    font-family: Montserrat;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.enter .enter-container .enter-content-2 form .form-container .form-content-2 a {
-    color: #404040;
-    font-family: Poppins;
+.icloud .icloud-container .input-text-container .input-text .input-blue {
+    color: #234;
+    font-family: Montserrat;
     font-size: 1.2rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom {
-    padding: 0 7.11rem;
-    padding-top: 3rem;
     display: flex;
     gap: 0.7rem;
 }
 
-.enter .enter-container .enter-content-2 .form-bottom .black-text {
+.icloud .icloud-container .input-text-container .input-text .input-blue span {
+    color: #FFAB21;
+}
+
+.icloud .icloud-container .input-text-container .input-text i {
+    font-size: 1.8rem;
+    color: #FFAB21;
+    cursor: pointer;
+}
+
+.icloud .icloud-container .input-text-container .input-text .proses {
     color: #404040;
-    font-family: Poppins;
+    font-family: Montserrat;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    transition: all 0.126s ease-out;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom .black-text:hover {
-    opacity: 0.81;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom .blue-text {
-    color: #254083;
-    font-size: 1.2rem;
-    transition: all 0.126s ease-out;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom .blue-text:hover {
-    opacity: 0.81;
 }
 
 /*! Footer */
@@ -711,20 +757,25 @@ footer .footer-container .footer-container-2 .footer-content-items p {
         width: 15.4rem;
     }
 
-    /*! Enter */
+    /*! Icloud */
 
-    .enter {
-        padding: 3rem 3rem 3rem 3rem;
+    .icloud {
+        padding: 10rem 3rem 7.2rem 3rem;
     }
 
-    .enter .enter-container {
+    .icloud .icloud-container form .input-container {
         display: flex;
         flex-direction: column;
-        gap: 9.3rem;
+        align-items: center;
+        gap: 2rem;
     }
 
-    .enter .enter-container .enter-content-2 {
-        padding: 0 7.9rem;
+    .icloud .icloud-container form .input-container .input-content .long-input {
+        width: 48.7rem;
+    }
+
+    .icloud .icloud-container form .input-container .input-btn {
+        width: 48.7rem;
     }
 
     /*! Footer */

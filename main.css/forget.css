@@ -160,36 +160,33 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     background-color: #bd8f46;
 }
 
-/*! Enter */
+/*! Password */
 
-.enter {
-    padding: 6rem 18.5rem 12.5rem 14.8rem;
+.password {
+    padding: 5.4rem 20.174rem 9.2rem 13.6rem;
 }
 
-.enter .enter-container {
+.password .password-container {
     display: flex;
+    gap: 2.1rem;
     align-items: center;
-    gap: 10.3rem;
 }
 
-.enter .enter-container .enter-content-1 .enter-image img {
-    width: 100%;
-}
-
-.enter .enter-container .enter-content-2 {
+.password .password-container .password-content-1 {
     display: flex;
     flex-direction: column;
-    gap: 4.2rem;
+    align-items: center;
     justify-content: center;
-    padding: 0 7.9rem;
+    gap: 5rem;
     max-width: 49.3rem;
+    width: 49.3rem;
     height: 49.8rem;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 1px 10px 0px rgba(192, 215, 255, 0.60);
 }
 
-.enter .enter-container .enter-content-2 h2 {
+.password .password-container .password-content-1 h2 {
     color: #254083;
     font-family: Montserrat;
     font-size: 3.5rem;
@@ -198,20 +195,14 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     line-height: normal;
 }
 
-.enter .enter-container .enter-content-2 form {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-}
-
-.enter .enter-container .enter-content-2 form .form-inputs {
+.password .password-container .password-content-1 .password-input-btn {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.enter .enter-container .enter-content-2 form .form-inputs input {
-    width: 33.5rem;
+.password .password-container .password-content-1 .password-input-btn .email-input {
+    width: 39.3rem;
     height: 4rem;
     border-radius: 10px;
     border: 0.5px solid #005B7F;
@@ -220,105 +211,37 @@ header .header-container-2 .header-content .header-button .header-btn:hover {
     outline: none;
 }
 
-.enter .enter-container .enter-content-2 form .form-inputs input::placeholder {
+.password .password-container .password-content-1 .password-input-btn .email-input::placeholder {
     color: #404040;
     font-family: Poppins;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
 }
 
-.enter .enter-container .enter-content-2 form .input-btn {
-    width: 33.5rem;
+.password .password-container .password-content-1 .password-input-btn .input-button {
+    width: 39.3rem;
     height: 4rem;
     border-radius: 10px;
     background: #FFAB21;
+    border: none;
     color: #FFF;
     font-family: Poppins;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.1rem;
-    border: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
 
-.enter .enter-container .enter-content-2 form .input-btn:hover {
+.password .password-container .password-content-1 .password-input-btn .input-button:hover {
     background-color: #bd8f46;
 }
 
-.enter .enter-container .enter-content-2 form .form-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -1.5rem;
-}
-
-.enter .enter-container .enter-content-2 form .form-container .form-content-1 {
-    display: flex;
-    gap: 0.7rem;
-    align-items: center;
-}
-
-.enter .enter-container .enter-content-2 form .form-container .form-content-1 input {
-    width: 1.6rem;
-    height: 1.6rem;
-    border-radius: 3px;
-    border: 0.5px solid #FFAB21;
-    background: #FFF;
-}
-
-.enter .enter-container .enter-content-2 form .form-container .form-content-1 p {
-    color: #404040;
-    font-family: Poppins;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.enter .enter-container .enter-content-2 form .form-container .form-content-2 a {
-    color: #404040;
-    font-family: Poppins;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom {
-    padding: 0 7.11rem;
-    padding-top: 3rem;
-    display: flex;
-    gap: 0.7rem;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom .black-text {
-    color: #404040;
-    font-family: Poppins;
-    font-size: 1.2rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    transition: all 0.126s ease-out;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom .black-text:hover {
-    opacity: 0.81;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom .blue-text {
-    color: #254083;
-    font-size: 1.2rem;
-    transition: all 0.126s ease-out;
-}
-
-.enter .enter-container .enter-content-2 .form-bottom .blue-text:hover {
-    opacity: 0.81;
+.password .password-container .password-content-2 .password-image img {
+    width: 100%;
 }
 
 /*! Footer */
@@ -711,20 +634,16 @@ footer .footer-container .footer-container-2 .footer-content-items p {
         width: 15.4rem;
     }
 
-    /*! Enter */
+    /*! Password */
 
-    .enter {
-        padding: 3rem 3rem 3rem 3rem;
+    .password {
+        padding: 5.4rem 3rem 9.2rem 3rem;
     }
 
-    .enter .enter-container {
+    .password .password-container {
         display: flex;
         flex-direction: column;
-        gap: 9.3rem;
-    }
-
-    .enter .enter-container .enter-content-2 {
-        padding: 0 7.9rem;
+        gap: 2.1rem;
     }
 
     /*! Footer */
